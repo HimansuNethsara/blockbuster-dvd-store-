@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "906545575086",
+    "project_id": "blockbuster-49895",
+    "storage_bucket": "blockbuster-49895.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906545575086:android:c21db11287d46b8fdce93f",
+        "android_client_info": {
+          "package_name": "lk.jiat.blockbuster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc-hBdrV2_Ja1W8Pa8WgkSzWEztVR_g78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

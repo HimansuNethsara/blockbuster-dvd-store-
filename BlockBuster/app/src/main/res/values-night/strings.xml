@@ -1,0 +1,244 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BlockBuster</string>
+    <!-- SplashScreen -->
+    <string name="splash_tagline">Experience Movies Like Never Before</string>
+    <string name="loading_text" tools:ignore="TypographyEllipsis">Loading your movie collection...</string>
+    <string name="app_version">Version 1.0.0</string>
+    <string name="app_copy">© 2026 BlockBuster. All Rights Reserved.</string>
+
+    <!-- Side Nav + Bottom Nav -->
+    <string name="side_nav_home_title">Home</string>
+    <string name="side_nav_profile_title">Profile</string>
+    <string name="side_nav_orders_title">Orders</string>
+    <string name="side_nav_wishlist_title">Wishlist</string>
+    <string name="side_nav_cart_title">Cart</string>
+    <string name="side_nav_settings_title">Settings</string>
+    <string name="side_nav_about_title">About</string>
+    <string name="side_nav_about_map">Store Location</string>
+    <string name="side_nav_login_title">Login</string>
+    <string name="side_nav_logout_title">Logout</string>
+    <string name="side_nav_message_title">Message</string>
+    <string name="bottom_nav_home_title">Home</string>
+    <string name="bottom_nav_category_title">Genre</string>
+    <string name="bottom_nav_cart_title">Cart</string>
+    <string name="bottom_nav_profile_title">Profile</string>
+    <string name="search_hint">Search here</string>
+    <string name="user_not_logged_in">You\'re not logged in</string>
+    <string name="side_nav_section_user">Account</string>
+    <string name="side_nav_section_app">App</string>
+    <string name="side_nav_section_auth">Authentication</string>
+    <string name="settings_appearance">Appearance</string>
+
+    <!-- Main -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- Settings -->
+    <string name="settings_category_appearance">Appearance</string>
+    <string name="settings_category_notifications">Notifications</string>
+    <string name="settings_category_other">Playback</string>
+    <string name="settings_theme_title">App Theme</string>
+    <string name="settings_theme_summary">Choose how BlockBuster looks</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_summary">Receive updates about orders and offers</string>
+    <string name="settings_autoplay">Auto Play Trailers</string>
+    <string name="settings_autoplay_summary">Automatically play movie previews</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_light_preview">Light mode preview</string>
+    <string name="settings_theme_dark_preview">Dark mode preview</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- SignIn & SignUp -->
+    <string name="login_title">Welcome Back</string>
+    <string name="sample_email_text">your@email.com</string>
+    <string name="email_title">Email</string>
+    <string name="password_title">Password</string>
+    <string name="sample_password_text">Enter your password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="text_sign_in">Sign In</string>
+    <string name="text_create_account">Don\'t have an account?</string>
+    <string name="text_sign_up">Sign Up</string>
+    <string name="remember_me">Remember me</string>
+    <string name="app_logo_full_light_desc">Block\nBuster \nFilm Review</string>
+    <string name="signup_title">Join BlockBuster Today</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="sample_password_hint">At least 6 characters</string>
+    <string name="create_account">Create Account</string>
+    <string name="text_have_account">Already have an account</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="sample_password_retype_hint">Confirm Password</string>
+    <string name="signup_benefit_title_text">Benefits of joining:</string>
+    <string name="signup_benefit_text_line1">Discover the latest movies and trending releases</string>
+    <string name="signup_benefit_text_line2">Receive personalized movie recommendations</string>
+    <string name="signup_benefit_text_line3">Get early updates about new releases and trailers</string>
+    <string name="signup_benefit_text_line4">Keep track of your movie activity and preferences</string>
+    <string name="signup_benefits_text_line5">Save your favorite movies and watchlist</string>
+    <string name="signup_policy_text">
+        By creating an account, you agree to Terms of Service and Privacy Policy. We\'ll occasionally send you important account-related updates.
+    </string>
+
+    <!-- Terms of Service -->
+    <string name="terms_service_title">Terms of Service</string>
+    <string name="terms_service_text_main">Welcome to BlockBuster. By creating an account and using this application, you agree to the following terms and conditions.</string>
+    <string name="terms_service_sub_title1">User Responsibilities</string>
+    <string name="terms_service_sub_title2">Application Usage</string>
+    <string name="terms_service_sub_title1_line1">Use BlockBuster to browse, discover and track movies.</string>
+    <string name="terms_service_sub_title1_line2">Keep your account credentials secure and accurate.</string>
+    <string name="terms_service_sub_title1_line3">Do not misuse the app or attempt to disrupt its services.</string>
+    <string name="terms_service_sub_title2_line1">BlockBuster may update features, content, or policies periodically.</string>
+    <string name="terms_service_sub_title2_line2">Continued use of the application indicates acceptance of updated terms.</string>
+    <string name="terms_service_text_close">BlockBuster is committed to providing a safe and enjoyable movie discovery experience for all users.</string>
+    <string name="close_text">Close</string>
+
+    <!-- Privacy Policy -->
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_text_main">BlockBuster respects your privacy and is committed to protecting your personal information.This policy explains what data we collect and how it is used within the application.</string>
+    <string name="privacy_policy_subtitle1">Information We Collect</string>
+    <string name="privacy_policy_subtitle1_line1">Your name and email address when creating an account.</string>
+    <string name="privacy_policy_subtitle1_line2">Your movie preferences and watch history to improve recommendations.</string>
+    <string name="privacy_policy_subtitle1_line3">Anonymous usage analytics to enhance app performance and features.</string>
+    <string name="privacy_policy_subtitle2">How Your Data Is Used</string>
+    <string name="privacy_policy_subtitle2_line1">Your information helps personalize your BlockBuster experience and movie suggestions.</string>
+    <string name="privacy_policy_subtitle2_line2">Your personal data will never be sold or shared with third parties without your consent.</string>
+    <string name="privacy_policy_text_close">BlockBuster values transparency and security. By using the application, you acknowledge and agree to this privacy policy.</string>
+
+    <!-- Profile -->
+    <string name="profile_account_information">Account Information</string>
+    <string name="profile_save">Save</string>
+    <string name="profile_change_password_title">Change Password</string>
+    <string name="profile_current_password_hint">Current Password</string>
+    <string name="profile_new_password_hint">New Password</string>
+    <string name="profile_confirm_new_password_hint">Confirm New Password</string>
+    <string name="profile_update_password">Update Password</string>
+    <string name="profile_account_options">Account Options</string>
+    <string name="profile_edit_profile">Edit Profile</string>
+    <string name="profile_member_since">Member since %1$s</string>
+    <string name="profile_edit_text">Edit</string>
+    <string name="profile_change_profile_pic">Change Profile Picture</string>
+    <string name="profile_open_camera">Take Photo</string>
+    <string name="profile_open_gallery">Choose from Gallery</string>
+    <string name="profile_remove_current_pic">Remove Current Picture</string>
+
+    <!-- Single Movie View -->
+    <string name="movie_banner">Movie Banner</string>
+    <string name="add_to_favorite">Add to Favourite</string>
+    <string name="share">Share</string>
+    <string name="watch_trailer">WATCH TRAILER</string>
+    <string name="buy_dvd_s">BUY DVD</string>
+    <string name="overview">Overview</string>
+    <string name="reviews_title">Reviews</string>
+    <string name="cast_crew_title"><![CDATA[Cast & Crew]]></string>
+    <string name="related_movies_title">Related Movies</string>
+    <string name="buy_dvd_s_title">Buy DVD</string>
+    <string name="full_cast_crew"><![CDATA[Full Cast & Crew ›]]></string>
+    <string name="see_all_reviews">See All Reviews ›</string>
+    <string name="single_movie_director_overview_title">Director</string>
+    <string name="single_movie_stars_overview_title">Stars</string>
+    <string name="single_movie_genres_overview_title">Genres</string>
+    <string name="single_movie_release_year_overview_title">Release Year</string>
+    <string name="single_movie_runtime_overview_title">Run Time</string>
+    <string name="single_movie_mpaa_rating_overview_title">MPAA Rating</string>
+    <string name="single_movie_plot_keyword_overview_title">Plot Keywords</string>
+    <string name="single_movie_cast_overview_cast_crew_of"><![CDATA[Cast & Crew of]]></string>
+    <string name="single_movie_cast_overview_director_image">Director image</string>
+    <string name="single_movie_cast_overview_director_text">DIRECTORS</string>
+    <string name="single_movie_cast_overview_cast_text">CAST</string>
+    <string name="single_movie_cast_overview_cast_image">Cast Image</string>
+    <string name="single_movie_dvd_price">DVD Price</string>
+    <string name="single_movie_availability">Availability</string>
+    <string name="single_movie_in_stock">In Stock</string>
+    <string name="single_movie_out_stock">Out of Stock</string>
+    <string name="single_movie_available_qty">Available Quantity</string>
+    <string name="single_movie_quantity">Quantity</string>
+    <string name="single_movie_decrease_qty">Decrease Quantity</string>
+    <string name="single_movie_increase_quantity">Increase Quantity</string>
+    <string name="single_movie_total">Total</string>
+    <string name="single_movie_add_to_cart">ADD TO CART</string>
+    <string name="single_movie_buy_now">BUY NOW</string>
+    <string name="max_stock_reached">Max stock reached</string>
+    <string name="please_wait">Please wait...</string>
+
+    <!--Cart-->
+    <string name="cart_title">My Cart</string>
+    <string name="empty_cart">Your Cart is Empty</string>
+    <string name="empty_cart_message">Looks like you haven\'t added any DVDs yet</string>
+    <string name="start_shopping_message">Browse our collection and find your favorite movies</string>
+    <string name="start_shopping">Start Shopping</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="proceed_to_shipping">Proceed to Shipping</string>
+    <string name="remove_item">Remove item</string>
+    <string name="increase_quantity">Increase quantity</string>
+    <string name="decrease_quantity">Decrease quantity</string>
+    <string name="checkout_title">Checkout</string>
+    <string name="checkout_subtitle_description">Complete your purchase</string>
+    <string name="checkout_shipping_details_title">Shipping Details</string>
+
+    <!--Checkout-->
+    <string name="contact_number">Contact Number</string>
+    <string name="address_line_1">Address Line 1</string>
+    <string name="address_line_2">Address Line 2</string>
+    <string name="city_text">City</string>
+    <string name="postal_code_text">Postal Code</string>
+    <string name="billing_address_checkbox_text">Billing address same as shipping</string>
+    <string name="billing_details_title">Billing Details</string>
+    <string name="checkout_order_summary">Order Summary</string>
+    <string name="checkout_subtotal">Subtotal</string>
+    <string name="total_text">Total</string>
+    <string name="checkout_payment_method">Payment Method</string>
+    <string name="checkout_payment_method_detail">Credit / Debit Card</string>
+    <string name="checkout_proceed_payment_text">Proceed to Payment</string>
+    <string name="credit_card_text">Credit card</string>
+
+    <!--Orders-->
+    <string name="order_success">Order Confirmed!</string>
+    <string name="order_confirmation_message">Thank you for your purchase. Your order has been placed successfully.</string>
+    <string name="order_items">Order Items</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="payment_summary">Payment Summary</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="paid">Paid</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="order_status">Order Status</string>
+    <string name="view_order_details">View Details</string>
+    <string name="order_title">My Orders</string>
+    <string name="your_orders">Your Orders</string>
+    <string name="empty_orders">Empty Orders</string>
+    <string name="no_orders_yet">No Orders yet</string>
+
+    <!-- About -->
+    <string name="app_tagline">Premium Original Movie DVDs</string>
+    <string name="about_description_title">About BlockBuster</string>
+    <string name="about_description">BlockBuster is your premier destination for authentic, high-quality original movie DVDs. We bring the magic of cinema directly to your doorstep with our carefully curated collection of films from Hollywood and beyond. Experience movies the way they were meant to be enjoyed – on physical media with stunning picture and sound quality.</string>
+    <string name="features_title">Why Choose BlockBuster</string>
+    <string name="feature_movies_title">Premium Movie Collection</string>
+    <string name="feature_movies_desc">Original DVDs from all genres – Action, Comedy, Drama, Horror, and more</string>
+    <string name="feature_secure_payment_title">Secure Payment</string>
+    <string name="feature_secure_payment_desc">Safe and encrypted transactions with multiple payment options</string>
+    <string name="feature_delivery_title">Fast Delivery</string>
+    <string name="feature_delivery_desc">Quick shipping across Sri Lanka with real-time tracking</string>
+    <string name="feature_support_title">24/7 Customer Support</string>
+    <string name="feature_support_desc">Dedicated support team ready to assist you anytime</string>
+    <string name="contact_title">Get in Touch</string>
+    <string name="address">BlockBuster Headquarters\n123 Cinema Lane, Colombo 07\nSri Lanka</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="copyright">© 2025 BlockBuster. All rights reserved.</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">YouTube</string>
+    <string name="app_logo">App Logo</string>
+
+    <!--Home-->
+    <string name="home_banner_text">The ultimate destination for movie collectors</string>
+    <string name="shop_now">Shop Now</string>
+    <string name="home_featured_movies">Featured Movies</string>
+    <string name="home_see_all">See All</string>
+
+</resources>

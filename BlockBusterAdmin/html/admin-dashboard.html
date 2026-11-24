@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BlockBuster | Admin - Dashboard </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
+    <!-- Custom Font Icons CSS-->
+    <link rel="stylesheet" href="../css/admin/font.css">
+    <!-- Google fonts - Muli-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,700">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="../css/admin/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="../css/notification.css"/>
+<!--    <link rel="stylesheet" href="../css/admin/login.css">-->
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../images/B.png">
+  </head>
+  <body onload="adminStatistics();">
+    <header class="header" id="page-header"></header>
+
+    <div class="d-flex align-items-stretch">
+      <!-- Sidebar Navigation-->
+      <nav id="sidebar"></nav>
+      <!-- Sidebar Navigation end-->
+      <div class="page-content">
+        <div class="page-header">
+          <div class="container-fluid">
+            <h2 class="h5 no-margin-bottom">Dashboard</h2>
+          </div>
+        </div>
+        <section class="no-padding-top no-padding-bottom">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="statistic-block block">
+                  <div class="progress-details d-flex align-items-end justify-content-between">
+                    <div class="title">
+                      <div class="icon"><i class="icon-user-1"></i></div>
+                      <strong>New Users</strong>
+                    </div>
+                    <div class="number dashtext-1" id="new-user-count">0</div> 
+                  </div>
+                  <div class="progress progress-template">
+                    <div role="progressbar" id="new-user-bar"
+                      class="progress-bar progress-bar-template dashbg-1"
+                      style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="statistic-block block">
+                  <div class="progress-details d-flex align-items-end justify-content-between">
+                    <div class="title">
+                      <div class="icon"><i class="icon-writing-whiteboard"></i></div><strong>This Year's Releases</strong>
+                    </div>
+                    <div class="number dashtext-2" id="this-year-releases">0</div>
+                  </div>
+                  <div class="progress progress-template">
+                    <div id="this-year-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-template dashbg-2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="statistic-block block">
+                  <div class="progress-details d-flex align-items-end justify-content-between">
+                    <div class="title">
+                      <div class="icon"><i class="icon-paper-and-pencil"></i></div>
+                      <strong>Daily DVD Sales</strong>
+                    </div>
+                    <div class="number dashtext-3" id="new-booking-count">0</div>
+                  </div>
+                  <div class="progress progress-template">
+                    <div id="new-booking-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-template dashbg-3"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="statistic-block block">
+                  <div class="progress-details d-flex align-items-end justify-content-between">
+                    <div class="title">
+                      <div class="icon"><i class="icon-paper-and-pencil"></i></div><strong>Daily Revenue</strong>
+                    </div>
+                    <div class="number dashtext-4" id="daily-revenue-count" style="font-size: 20px;">Rs.0.00</div>
+                  </div>
+                  <div class="progress progress-template">
+                    <div id="daily-revenue-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-template dashbg-4"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="statistic-block block">
+                  <div class="progress-details d-flex align-items-end justify-content-between">
+                    <div class="title">
+                      <div class="icon"><i class="icon-user-1"></i></div>
+                      <strong>Total Users</strong>
+                    </div>
+                    <div class="number dashtext-1" id="total-user-count">0</div>
+                  </div>
+                  <div class="progress progress-template">
+                    <div role="progressbar" id="total-user-bar"
+                      class="progress-bar progress-bar-template dashbg-1"
+                      style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="statistic-block block">
+                  <div class="progress-details d-flex align-items-end justify-content-between">
+                    <div class="title">
+                      <div class="icon"><i class="icon-writing-whiteboard"></i></div><strong>Total Movies</strong>
+                    </div>
+                    <div class="number dashtext-2" id="total-movie-count">0</div>
+                  </div>
+                  <div class="progress progress-template">
+                    <div id="total-movie-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-template dashbg-2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="statistic-block block">
+                  <div class="progress-details d-flex align-items-end justify-content-between">
+                    <div class="title">
+                      <div class="icon"><i class="icon-paper-and-pencil"></i></div>
+                      <strong>Total DVD Sales</strong>
+                    </div>
+                    <div class="number dashtext-3" id="total-booking-count">0</div>
+                  </div>
+                  <div class="progress progress-template">
+                    <div id="total-booking-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-template dashbg-3"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="statistic-block block">
+                  <div class="progress-details d-flex align-items-end justify-content-between">
+                    <div class="title">
+                      <div class="icon"><i class="icon-paper-and-pencil"></i></div><strong>Total Revenue</strong>
+                    </div>
+                      <div class="number dashtext-4" id="total-revenue-count" style="font-size: 20px;">Rs.0.00</div>
+                  </div>
+                  <div class="progress progress-template">
+                    <div id="total-revenue-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-template dashbg-4"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="no-padding-bottom">
+            <div class="container-fluid">
+              <div class="row" id="top-users-container">
+
+                <div class="col-lg-4">
+                  <div class="user-block block text-center">
+                    <div class="avatar">
+                      <img src="../images/avatar.png" alt="..." class="img-fluid">
+                      <div class="order dashbg-2">1st</div>
+                    </div>
+                    <a href="#" class="user-title">
+                      <h3 class="h5" id="user1-name">First User</h3>
+                      <span id="user1-email">@firstuser</span>
+                    </a>
+                    <div class="contributions" id="user1-bookings">0 Contributions</div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="user-block block text-center">
+                    <div class="avatar">
+                      <img src="../images/avatar.png" alt="..." class="img-fluid">
+                      <div class="order dashbg-1">2nd</div>
+                    </div>
+                    <a href="#" class="user-title">
+                      <h3 class="h5" id="user2-name">Second User</h3>
+                      <span id="user2-email">@seconduser</span>
+                    </a>
+                    <div class="contributions" id="user2-bookings">0 Contributions</div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="user-block block text-center">
+                    <div class="avatar">
+                      <img src="../images/avatar.png" alt="..." class="img-fluid">
+                      <div class="order dashbg-4">3rd</div>
+                    </div>
+                    <a href="#" class="user-title">
+                      <h3 class="h5" id="user3-name">Third User</h3>
+                      <span id="user3-email">@thirduser</span>
+                    </a>
+                    <div class="contributions" id="user3-bookings">0 Contributions</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        </section>
+        <footer class="footer"></footer>
+      </div>
+    </div>
+    <!-- JavaScript files-->
+    <!-- PHASE 1: Core dependencies (jQuery, Bootstrap, utilities) -->
+    <script src="../js/vendor/jquery.min.js"></script>
+    <script src="../js/vendor/bootstrap.min.js"></script>
+    <script src="../js/vendor/jquery.cookie.js"></script>
+    <script src="../js/admin/front.js"></script>     
+    <script src="../js/notification.js"></script>
+    
+    <!-- PHASE 2: Content loaders (jQuery-dependent) -->
+    <script src="../js/admin/admin-content-loader.js"></script>
+    <script src="../js/admin/admin-sign-out.js"></script>
+    
+    <!-- PHASE 3: Module initialization -->
+    <script src="../js/module-init.js"></script>
+    <script src="../js/globals.js"></script>
+    
+    <!-- PHASE 4: Firebase and feature modules -->
+    <script type="module" src="../firebaseConfig.js"></script>
+    <script type="module" src="../js/admin/admin-home.js"></script>
+    <script type="module" src="../js/admin/admin-sign-in.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:divider="@null"
+    android:iconSpaceReserved="false">
+
+    <PreferenceCategory
+        android:key="appearance_category"
+        android:title="@string/settings_category_appearance"
+        android:layout="@layout/pref_category_blockbuster">
+
+        <lk.jiat.blockbuster.preference.ThemeSelectorPreference
+            android:key="theme_mode"
+            android:title="@string/settings_theme_title"
+            android:summary="@string/settings_theme_summary"
+            android:layout="@layout/pref_theme_selector"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/settings_category_notifications"
+        android:layout="@layout/pref_category_blockbuster">>
+
+        <SwitchPreferenceCompat
+            android:key="notifications"
+            android:title="@string/settings_notifications"
+            android:summary="@string/settings_notifications_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/settings_category_other"
+        android:layout="@layout/pref_category_blockbuster">>
+
+        <SwitchPreferenceCompat
+            android:key="auto_play"
+            android:title="@string/settings_autoplay"
+            android:summary="@string/settings_autoplay_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
