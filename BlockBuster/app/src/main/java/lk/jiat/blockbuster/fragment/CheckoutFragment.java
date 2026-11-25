@@ -264,7 +264,7 @@ public class CheckoutFragment extends Fragment {
         req.setSandBox(true);
 
         req.setMerchantId("1231397");
-        req.setMerchantSecret("MzI1MDM0Nzg5MjI5NTI1NzA4MTkxMTU4MzQwNjM5NDIzNDUwMjM4NQ==");
+        req.setMerchantSecret("YOUR_PAYHERE_MERCHANT_SECRET");
         req.setCurrency("LKR");
         req.setAmount(total);
         req.setOrderId("BLOCK-" + System.currentTimeMillis());
